@@ -8,8 +8,8 @@ Replace this readme with your own information about the project. You can include
 - How to run the project locally
 
 ## View it live
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
 
+Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
 
 ## Getting Started with the Project
 
@@ -22,3 +22,11 @@ The command below is a combination of installing dependencies, opening up the pr
 ```bash
 npm i && code . && npm run dev
 ```
+
+Jag började med att be ChatGPT skapa grunden till projektet. Efter att ha justerat några problem blev resultatet en sida med tre komponenter. Jag fick testa göra ganska många roliga saker som jag inte testat tidigare, exempelvis betygssystemet med stjärnor.
+
+Då referenssidan för layout inte fungerade så fick jag lösa en egen layout som jag tyckte passade.
+
+Ett problem med sidan jag har upptäckt och som jag inte har kunnat lösa är att när förstasidan laddas första gången så blinkar bakgrunden vitt när fade-effekten börjar. Problemet verkar försvinna efter att man låtit sidan spela upp alla bilder en gång, så jag antar att det har att göra med att det tar tid att ladda bilderna. Går detta att åtgärda på något sätt?
+
+https://topfilmsite.netlify.app/
